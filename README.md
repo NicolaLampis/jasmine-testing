@@ -4,6 +4,19 @@ Welcome NicolaLampis,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
+## Jasmine testing 
+
+The philosophy of test-driven development is to develop code incrementally.
+First, we write tests that we know will fail.
+And then, we write just enough code to get that test to pass.
+
+It's easy to write a test accidentally that always passes, even when the code doesn't work.
+
+Writing tests that fail and then writing just enough code to get that test to pass while making sure that all of the preceding tests still pass is known as Red-Green-Refactor.
+
+This means that when we want to improve our code, we first add a test it should fail. Then, we make our planned change to the code and ensure that it makes the test pass.
+We prove that our tests can both pass and fail, and thus it tests exactly what we wanted.
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
